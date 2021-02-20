@@ -16,10 +16,12 @@ body{
 
 }
 
-.contenedor-sfoto img{
+.contenedor-foto img{
     width: 100%;
     height: 100%;
     vertical-align: top;
+    /*transform: scale(0);
+    transition: transform 2s;*/
 }
 
 .contenedor-foto:hover img {
@@ -40,7 +42,7 @@ body{
     height: 100%;
     text-align: center;
     padding: 20px;
-    transform: translate(100%, 100%);
+    transform: translate(100%, 100%) rotate(180deg);
     transition: transform 2s;
 }
 
